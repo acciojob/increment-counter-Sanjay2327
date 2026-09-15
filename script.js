@@ -7,9 +7,10 @@ let incrementBtn = document.getElementById('incrementBtn');
 let count = 0;
 
 button.addEventListener("click" , function () {
-	alert(count);
+	
 
 	count++ ;
+	alert(count);
 
 	counterDisplay.textContent =  count;
 }) 
