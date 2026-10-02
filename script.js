@@ -6,7 +6,7 @@ let incrementBtn = document.getElementById('incrementBtn');
 
 let count = 0;
 
-button.addEventListener("click" , function () {
+incrementBtn.addEventListener("click" , function () {
 	
 
 	count++ ;
